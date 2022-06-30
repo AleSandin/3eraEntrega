@@ -1,0 +1,28 @@
+*{ margin: 0;
+    padding:0;}
+
+.header{ background-color:#0e685f ;
+display: flex;
+flex-wrap: wrap;
+
+
+&__img{ width: 15rem;}
+}
+
+.navegacion{ display: flex;display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content: flex-end;}
+
+.nav{ display: flex; align-items: flex-end;    
+    color: aliceblue;}
+
+.item{ margin-bottom: 2rem;}
+
+.nav-link{color: rgb(208, 244, 244);
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 5rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;}
