@@ -60,3 +60,17 @@
 .index-img2 {
   width: 30vw;
   margin: 3rem 3rem 1rem 10rem; }
+
+.piedepagina {
+  font-size: 50px;
+  height: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #0e685f; }
+
+.fa-brands,
+.fab {
+  font-family: "Font Awesome 6 Brands";
+  color: #f1eef3; }
