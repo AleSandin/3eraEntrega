@@ -2,6 +2,22 @@
   margin: 0;
   padding: 0; }
 
+#contenido-empresa {
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(38deg, #0e685f 17%, #55b3a7 50%, #0e685f 83%);
+  font-family: cursive;
+  justify-content: space-around;
+  align-items: center;
+  color: #f1eef3; }
+
+.mision {
+  margin: 1rem; }
+
+.parrafo-empresa {
+  margin: 2rem; }
+
 .header {
   background-color: #0e685f;
   display: flex;

@@ -3,6 +3,9 @@
     padding: 0;
 }
 
+@import './secciones/empresa.scss';
+
+
 .header {
     background-color: #0e685f;
     display: flex;
@@ -86,3 +89,4 @@
 .fab {
     font-family: "Font Awesome 6 Brands";
     color: #f1eef3;}
+
