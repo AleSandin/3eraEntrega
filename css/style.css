@@ -45,6 +45,18 @@
   color: aliceblue;
   margin: 1rem; }
 
+#main-contacto {
+  background-color: #0e685f;
+  font-size: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  color: aliceblue;
+  justify-content: center; }
+
+.formulario {
+  display: flex;
+  flex-direction: column; }
+
 .header {
   background-color: #0e685f;
   display: flex;
