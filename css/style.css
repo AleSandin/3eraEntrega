@@ -29,7 +29,21 @@
   color: aliceblue; }
 
 #main-ubicacion {
-  background-color: #0e685f; }
+  background-color: #0e685f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap; }
+
+.direccion {
+  font-size: 3rem;
+  color: aliceblue;
+  margin-bottom: 1rem; }
+
+.parrafo-ubicacion {
+  font-size: 20px;
+  color: aliceblue;
+  margin: 1rem; }
 
 .header {
   background-color: #0e685f;
