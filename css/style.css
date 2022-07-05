@@ -18,6 +18,19 @@
 .parrafo-empresa {
   margin: 2rem; }
 
+.card-img-top {
+  width: 100%; }
+
+.row {
+  background-color: #0e685f; }
+
+.card-body {
+  background-color: #0e685f;
+  color: aliceblue; }
+
+#main-ubicacion {
+  background-color: #0e685f; }
+
 .header {
   background-color: #0e685f;
   display: flex;
