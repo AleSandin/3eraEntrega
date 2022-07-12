@@ -8,6 +8,13 @@
 @import './secciones/ubicacion.scss';
 @import './secciones/contacto.scss';
 
+
+
+body{ background-image: url(https://img.freepik.com/foto-gratis/gotas-que-caen-agua_1252-812.jpg?t=st=1657308090~exp=1657308690~hmac=8228905763152b9a1072117f00793eadd828b8642804fa6ea672a75a1872a4e2&w=996);
+background-repeat: no-repeat;background-size: cover;
+}
+
+
 .header {
     background-color: #0e685f;
     display: flex;
@@ -46,6 +53,7 @@
 }
 
 .container {display: grid;
+   
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 0.5fr 0.5fr;
     gap: 0px 0px;
