@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Kiwi+Maru:wght@500&display=swap');
 @import './secciones/empresa.scss';
 @import './secciones/servicios.scss';
 @import './secciones/ubicacion.scss';
@@ -10,7 +12,7 @@
 
 
 
-body{ background-image: url(https://img.freepik.com/foto-gratis/gotas-que-caen-agua_1252-812.jpg?t=st=1657308090~exp=1657308690~hmac=8228905763152b9a1072117f00793eadd828b8642804fa6ea672a75a1872a4e2&w=996);
+body{  background-image: url(https://img.freepik.com/foto-gratis/textura-fondo_1404-59.jpg?t=st=1657762819~exp=1657763419~hmac=5ae6eeb63b261d22712d2adfe1db345b26724fc35a035fce6b56b9a11681eef2&w=1060);
 background-repeat: no-repeat;background-size: cover;
 }
 
@@ -24,7 +26,7 @@ background-repeat: no-repeat;background-size: cover;
     &__img {
         width: 15rem;
 
-        
+
     }
 }
 
@@ -51,6 +53,7 @@ background-repeat: no-repeat;background-size: cover;
 
     &__a {
         color: white;
+        &:hover{ color:  #0e685f; background-color:white;}
     }
 }
 
@@ -68,7 +71,8 @@ background-repeat: no-repeat;background-size: cover;
     width: 40vw;
     margin: 3rem 3rem 1rem 3rem;}
 
-.index-parrafo1 {
+.index-parrafo1 { color: black;
+    font-family: 'Kiwi Maru', serif;
     display: flex;
     text-align: center;
     font-size: 45px;
@@ -76,7 +80,8 @@ background-repeat: no-repeat;background-size: cover;
     flex-wrap: wrap;
 }
 
-.index-parrafo2 {
+.index-parrafo2 { color: black;
+    font-family: 'Kiwi Maru', serif;
     display: flex;
     text-align: center;
     font-size: 45px;
