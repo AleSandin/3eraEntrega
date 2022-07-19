@@ -21,3 +21,33 @@
   color: black;
   margin: 1rem;
 }
+
+@media (max-width: 576px) {
+  body {
+    display: grid;
+    background-image: none;
+    background-color: #0e685f;
+    color: #f1eef3;
+  }
+
+  .nav {
+    margin-left: 3rem;
+  }
+
+  #main-ubicacion {
+    background-image: none;
+  }
+
+  .direccion {
+    color: #f1eef3;
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .parrafo-ubicacion {
+    color: #f1eef3;
+    font-size: 1rem;
+    text-align: center
+  }
+
+}
