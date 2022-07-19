@@ -36,7 +36,8 @@
     }
 }
 
-.enviar { background-color: #0e685f;   
+.enviar {
+    background-color: #0e685f;
     font-family: 'Kiwi Maru', serif;
     padding: 1rem;
     margin-bottom: 1rem;
@@ -44,29 +45,39 @@
 
 @media (max-width: 576px) {
     body {
-      display: grid;
-      background-image: none;
-      background-color: #0e685f;
-      color: #f1eef3;
+        display: grid;
+        background-image: none;
+        background-color: #0e685f;
+        color: #f1eef3;
     }
-  
+
     .nav {
-      margin-left: 3rem;
+        margin-left: 3rem;
     }
-    #main-contacto {background-image: none; }
 
-    .parrafo-contacto { color:#f1eef3;}
+    #main-contacto {
+        background-image: none;
+    }
 
-    .formulario p { color: #f1eef3;}
-  
-    .formulario textarea {  background-color: #f1eef3;  
-        color: black;}
-        .formulario input {
-            background-color: #f1eef3;
-            color: black;
-            font-size: 15px;
-            text-align: center;
-        }
+    .parrafo-contacto {
+        color: #f1eef3;
+    }
+
+    .formulario p {
+        color: #f1eef3;
+    }
+
+    .formulario textarea {
+        background-color: #f1eef3;
+        color: black;
+    }
+
+    .formulario input {
+        background-color: #f1eef3;
+        color: black;
+        font-size: 15px;
+        text-align: center;
+    }
 
 
 }
