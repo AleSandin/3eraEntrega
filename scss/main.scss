@@ -3,10 +3,21 @@
     padding: 0;
 }
 
+
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Kiwi+Maru:wght@500&display=swap');
 @import './secciones/empresa.scss';
 @import './secciones/servicios.scss';
 @import './secciones/ubicacion.scss';
 @import './secciones/contacto.scss';
+
+
+
+body {
+    background-image: url(https://img.freepik.com/foto-gratis/textura-fondo_1404-59.jpg?t=st=1657762819~exp=1657763419~hmac=5ae6eeb63b261d22712d2adfe1db345b26724fc35a035fce6b56b9a11681eef2&w=1060);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 .header {
     background-color: #0e685f;
@@ -42,23 +53,33 @@
 
     &__a {
         color: white;
+
+        &:hover {
+            color: #0e685f;
+            background-color: white;
+        }
     }
 }
 
-.container {display: grid;
+.container {
+    display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 0.5fr 0.5fr;
     gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas:
         "index-img index-parrafo1"
-        "idex-parrafo2 index-img2"}
+        "idex-parrafo2 index-img2"
+}
 
- .index-img{
+.index-img {
     width: 40vw;
-    margin: 3rem 3rem 1rem 3rem;}
+    margin: 3rem 3rem 1rem 3rem;
+}
 
 .index-parrafo1 {
+    color: black;
+    font-family: 'Kiwi Maru', serif;
     display: flex;
     text-align: center;
     font-size: 45px;
@@ -67,6 +88,8 @@
 }
 
 .index-parrafo2 {
+    color: black;
+    font-family: 'Kiwi Maru', serif;
     display: flex;
     text-align: center;
     font-size: 45px;
@@ -82,13 +105,78 @@
 .piedepagina {
     font-size: 50px;
     height: 5rem;
-    display: flex;flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #0e685f;}
-   
- .fa-brands,
+    background-color: #0e685f;
+}
+
+.fa-brands,
 .fab {
     font-family: "Font Awesome 6 Brands";
-    color: #f1eef3;}
+    color: #f1eef3;
+}
 
+@media (max-width: 576px) {
+    body {
+        display: grid;
+        background-image: none;
+        background-color: #0e685f;
+        color: #f1eef3;
+    }
+
+    .nav {
+        margin-left: 3rem;
+    }
+
+    .header__img {
+        width: 100%;
+    }
+
+    .item {
+        margin: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: 0.5fr;
+        grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr;
+        gap: 0px 0px;
+        grid-auto-flow: column;
+        grid-template-areas:
+            "index-img"
+            "index-parrafo1"
+            "index-parrafo2"
+            "index-img2";
+    }
+
+    .index-img {
+        grid-area: index-img;
+        width: 90vw;
+        margin: 2rem;
+    }
+
+    .index-parrafo1 {
+        grid-area: index-parrafo1;
+        color: antiquewhite;
+        font-size: 25px;
+        margin: 1rem;
+        padding: 10px;
+    }
+
+    .index-parrafo2 {
+        grid-area: index-parrafo2;
+        text-align: center;
+        color: antiquewhite;
+        font-size: 25px;
+        margin: 1rem;
+    }
+
+    .index-img2 {
+        grid-area: index-img2;
+        width: 90vw;
+        margin: 2rem;
+    }
+}

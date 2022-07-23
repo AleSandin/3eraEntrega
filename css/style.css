@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Kiwi+Maru:wght@500&display=swap");
 * {
   margin: 0;
   padding: 0; }
@@ -6,17 +7,47 @@
   font-size: 1rem;
   display: flex;
   flex-direction: column;
-  background: linear-gradient(38deg, #0e685f 17%, #55b3a7 50%, #0e685f 83%);
-  font-family: cursive;
+  background-image: url(https://img.freepik.com/foto-gratis/textura-fondo_1404-59.jpg?t=st=1657762819~exp=1657763419~hmac=5ae6eeb63b261d22712d2adfe1db345b26724fc35a035fce6b56b9a11681eef2&w=1060);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Kiwi Maru', serif;
   justify-content: space-around;
   align-items: center;
   color: #f1eef3; }
 
-.mision {
-  margin: 1rem; }
+.titulo {
+  font-size: 2rem;
+  margin: 5px;
+  color: black; }
 
 .parrafo-empresa {
-  margin: 2rem; }
+  margin: 2rem;
+  color: black;
+  margin: 10px;
+  font-size: 2rem; }
+
+@media (max-width: 576px) {
+  body {
+    display: grid;
+    background-image: none;
+    background-color: #0e685f;
+    color: #f1eef3; }
+  .nav {
+    margin-left: 3rem; }
+  #contenido-empresa {
+    font-size: 25px;
+    background-image: none;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Kiwi Maru', serif;
+    align-items: center; }
+  .titulo {
+    font-size: 2rem;
+    margin: 5px; }
+  .parrafo-empresa {
+    color: #f1eef3;
+    margin: 1rem;
+    font-size: 1.5rem; } }
 
 .card-img-top {
   width: 100%; }
@@ -29,33 +60,107 @@
   color: aliceblue; }
 
 #main-ubicacion {
-  background-color: #0e685f;
+  background-image: url(https://img.freepik.com/foto-gratis/textura-fondo_1404-59.jpg?t=st=1657762819~exp=1657763419~hmac=5ae6eeb63b261d22712d2adfe1db345b26724fc35a035fce6b56b9a11681eef2&w=1060);
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
   flex-wrap: wrap; }
 
 .direccion {
+  font-family: 'Kiwi Maru', serif;
   font-size: 3rem;
-  color: aliceblue;
+  color: black;
   margin-bottom: 1rem; }
 
 .parrafo-ubicacion {
+  font-family: 'Kiwi Maru', serif;
   font-size: 20px;
-  color: aliceblue;
+  color: black;
   margin: 1rem; }
 
+@media (max-width: 576px) {
+  body {
+    display: grid;
+    background-image: none;
+    background-color: #0e685f;
+    color: #f1eef3; }
+  .nav {
+    margin-left: 3rem; }
+  #main-ubicacion {
+    background-image: none; }
+  .direccion {
+    color: #f1eef3;
+    font-size: 2rem;
+    text-align: center; }
+  .parrafo-ubicacion {
+    color: #f1eef3;
+    font-size: 1rem;
+    text-align: center; } }
+
 #main-contacto {
-  background-color: #0e685f;
+  background-image: url(https://img.freepik.com/foto-gratis/textura-fondo_1404-59.jpg?t=st=1657762819~exp=1657763419~hmac=5ae6eeb63b261d22712d2adfe1db345b26724fc35a035fce6b56b9a11681eef2&w=1060);
+  background-repeat: no-repeat;
+  background-size: cover;
   font-size: 2rem;
   display: flex;
   flex-wrap: wrap;
   color: aliceblue;
   justify-content: center; }
 
+.parrafo-contacto {
+  text-align: center;
+  margin: 1rem;
+  color: black;
+  font-family: 'Kiwi Maru', serif; }
+
 .formulario {
   display: flex;
   flex-direction: column; }
+  .formulario textarea {
+    background-color: #0e685f;
+    color: aliceblue; }
+  .formulario input {
+    color: aliceblue;
+    background-color: #0e685f; }
+  .formulario p {
+    color: black;
+    font-family: 'Kiwi Maru', serif; }
+
+.enviar {
+  background-color: #0e685f;
+  font-family: 'Kiwi Maru', serif;
+  padding: 1rem;
+  margin-bottom: 1rem; }
+
+@media (max-width: 576px) {
+  body {
+    display: grid;
+    background-image: none;
+    background-color: #0e685f;
+    color: #f1eef3; }
+  .nav {
+    margin-left: 3rem; }
+  #main-contacto {
+    background-image: none; }
+  .parrafo-contacto {
+    color: #f1eef3; }
+  .formulario p {
+    color: #f1eef3; }
+  .formulario textarea {
+    background-color: #f1eef3;
+    color: black; }
+  .formulario input {
+    background-color: #f1eef3;
+    color: black;
+    font-size: 15px;
+    text-align: center; } }
+
+body {
+  background-image: url(https://img.freepik.com/foto-gratis/textura-fondo_1404-59.jpg?t=st=1657762819~exp=1657763419~hmac=5ae6eeb63b261d22712d2adfe1db345b26724fc35a035fce6b56b9a11681eef2&w=1060);
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 .header {
   background-color: #0e685f;
@@ -85,6 +190,9 @@
   flex-wrap: wrap; }
   .item__a {
     color: white; }
+    .item__a:hover {
+      color: #0e685f;
+      background-color: white; }
 
 .container {
   display: grid;
@@ -99,6 +207,8 @@
   margin: 3rem 3rem 1rem 3rem; }
 
 .index-parrafo1 {
+  color: black;
+  font-family: 'Kiwi Maru', serif;
   display: flex;
   text-align: center;
   font-size: 45px;
@@ -106,6 +216,8 @@
   flex-wrap: wrap; }
 
 .index-parrafo2 {
+  color: black;
+  font-family: 'Kiwi Maru', serif;
   display: flex;
   text-align: center;
   font-size: 45px;
@@ -129,3 +241,44 @@
 .fab {
   font-family: "Font Awesome 6 Brands";
   color: #f1eef3; }
+
+@media (max-width: 576px) {
+  body {
+    display: grid;
+    background-image: none;
+    background-color: #0e685f;
+    color: #f1eef3; }
+  .nav {
+    margin-left: 3rem; }
+  .header__img {
+    width: 100%; }
+  .item {
+    margin: 2rem;
+    margin-bottom: 1rem; }
+  .container {
+    display: grid;
+    grid-template-columns: 0.5fr;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr;
+    gap: 0px 0px;
+    grid-auto-flow: column;
+    grid-template-areas: "index-img" "index-parrafo1" "index-parrafo2" "index-img2"; }
+  .index-img {
+    grid-area: index-img;
+    width: 90vw;
+    margin: 2rem; }
+  .index-parrafo1 {
+    grid-area: index-parrafo1;
+    color: antiquewhite;
+    font-size: 25px;
+    margin: 1rem;
+    padding: 10px; }
+  .index-parrafo2 {
+    grid-area: index-parrafo2;
+    text-align: center;
+    color: antiquewhite;
+    font-size: 25px;
+    margin: 1rem; }
+  .index-img2 {
+    grid-area: index-img2;
+    width: 90vw;
+    margin: 2rem; } }

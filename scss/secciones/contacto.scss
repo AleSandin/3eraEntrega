@@ -1,10 +1,83 @@
 #main-contacto {
-    background-color: #0e685f;
+    background-image: url(https://img.freepik.com/foto-gratis/textura-fondo_1404-59.jpg?t=st=1657762819~exp=1657763419~hmac=5ae6eeb63b261d22712d2adfe1db345b26724fc35a035fce6b56b9a11681eef2&w=1060);
+    background-repeat: no-repeat;
+    background-size: cover;
     font-size: 2rem;
     display: flex;
     flex-wrap: wrap;
     color: aliceblue;
     justify-content: center;
 }
-.formulario{display: flex;
-    flex-direction: column; }
+
+.parrafo-contacto {
+    text-align: center;
+    margin: 1rem;
+    color: black;
+    font-family: 'Kiwi Maru', serif;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+
+    textarea {
+        background-color: #0e685f;
+        color: aliceblue;
+    }
+
+    input {
+        color: aliceblue;
+        background-color: #0e685f;
+    }
+
+    p {
+        color: black;
+        font-family: 'Kiwi Maru', serif;
+    }
+}
+
+.enviar {
+    background-color: #0e685f;
+    font-family: 'Kiwi Maru', serif;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 576px) {
+    body {
+        display: grid;
+        background-image: none;
+        background-color: #0e685f;
+        color: #f1eef3;
+    }
+
+    .nav {
+        margin-left: 3rem;
+    }
+
+    #main-contacto {
+        background-image: none;
+    }
+
+    .parrafo-contacto {
+        color: #f1eef3;
+    }
+
+    .formulario p {
+        color: #f1eef3;
+    }
+
+    .formulario textarea {
+        background-color: #f1eef3;
+        color: black;
+    }
+
+    .formulario input {
+        background-color: #f1eef3;
+        color: black;
+        font-size: 15px;
+        text-align: center;
+    }
+
+
+}
