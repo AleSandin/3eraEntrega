@@ -118,6 +118,7 @@ body {
     color: #f1eef3;
 }
 
+
 @media (max-width: 576px) {
     body {
         display: grid;
@@ -179,4 +180,30 @@ body {
         width: 90vw;
         margin: 2rem;
     }
+}
+
+@media (max-width: 992px) {
+    body {
+        display: grid;
+        background-image: none;
+        background-color: #0e685f;
+        color: #f1eef3;
+    }
+    .header__img {
+        margin-left: 23rem;
+        width: 20rem;
+    }
+    .item{ margin: 2rem;
+        margin-left: 4rem;}
+
+    .index-img { width: 45vw;
+            margin: 3rem 0 1rem 1rem;}
+
+      .index-parrafo1{ font-size: 35px;}
+
+      .index-parrafo2{ font-size: 35px;}
+
+      .index-img2 {
+        width: 40vw;
+        margin: 3rem;}
 }
