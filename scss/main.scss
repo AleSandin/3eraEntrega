@@ -3,21 +3,17 @@
     padding: 0;
 }
 
-
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Kiwi+Maru:wght@500&display=swap');
 @import './secciones/empresa.scss';
 @import './secciones/servicios.scss';
 @import './secciones/ubicacion.scss';
 @import './secciones/contacto.scss';
 
-
-
 body {
     background-image: url(https://img.freepik.com/foto-gratis/textura-fondo_1404-59.jpg?t=st=1657762819~exp=1657763419~hmac=5ae6eeb63b261d22712d2adfe1db345b26724fc35a035fce6b56b9a11681eef2&w=1060);
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 
 .header {
     background-color: #0e685f;
