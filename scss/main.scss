@@ -117,32 +117,90 @@ body {
     font-family: "Font Awesome 6 Brands";
     color: #f1eef3;
 }
+@media (max-width: 1400px){
+
+    .header__img {margin-left: 1rem;
+            width: 20vw;}
+.item{margin: 1rem 3rem 1rem 3rem;}
+
+}
+
+
+
+
+@media (max-width: 1200px) {
+       .header__img {
+        width: 25rem;
+        margin-left: 25rem;
+    }
+    .nav {
+        margin-left: 7rem;
+        display: flex;}
+    
+    .item{margin: 1rem 3rem 1rem 3rem;}
+
+    .index-parrafo1 {font-size: 35px;}
+    .index-parrafo2 {font-size: 35px;}
+}
+
 
 @media (max-width: 992px) {
     body {
-        display: grid;
-        background-image: none;
-        background-color: #0e685f;
-        color: #f1eef3;
+        background-image: url(https://img.freepik.com/foto-gratis/textura-fondo_1404-59.jpg?t=st=1657762819~exp=1657763419~hmac=5ae6eeb63b261d22712d2adfe1db345b26724fc35a035fce6b56b9a11681eef2&w=1060);
+    background-repeat: no-repeat;
+    background-size: cover;      
+        
     }
+
     .header__img {
         margin-left: 23rem;
         width: 20rem;
     }
-    .item{ margin: 2rem;
-        margin-left: 4rem;}
 
-    .index-img { width: 45vw;
-            margin: 3rem 0 1rem 1rem;}
+    .item {
+        margin: 2rem;      
+    }
 
-      .index-parrafo1{ font-size: 35px;}
+    .index-img {
+        width: 45vw;
+        margin: 3rem 0 1rem 1rem;
+    }
 
-      .index-parrafo2{ font-size: 35px;}
+    .index-parrafo1 {
+        font-size: 35px;
+    }
 
-      .index-img2 {
+    .index-parrafo2 {
+        font-size: 35px;
+    }
+
+    .index-img2 {
         width: 40vw;
-        margin: 3rem;}
+        margin: 3rem;
+    }
 }
+
+@media (max-width: 768px) {
+    body { background-image: url(https://img.freepik.com/foto-gratis/textura-fondo_1404-59.jpg?t=st=1657762819~exp=1657763419~hmac=5ae6eeb63b261d22712d2adfe1db345b26724fc35a035fce6b56b9a11681eef2&w=1060);
+    background-repeat: no-repeat;
+    background-size: cover;  
+    }
+    
+    .header__img {
+        width: 50%;
+        margin-left: 12rem;
+    }
+    .nav{ margin-left: 1rem;}
+
+    .item { margin: 1rem;      
+    }
+
+    .index-parrafo1 {
+        font-size: 25px;
+    }
+    .index-parrafo2{ font-size: 25px;} 
+}
+
 
 @media (max-width: 576px) {
     body {
@@ -157,12 +215,12 @@ body {
     }
 
     .header__img {
-        width: 100%;
+        width: 50%;
+        margin-left: 9rem;
     }
 
     .item {
-        margin: 2rem;
-        margin-bottom: 1rem;
+        margin: 1rem 3rem 1rem 3rem;
     }
 
     .container {
