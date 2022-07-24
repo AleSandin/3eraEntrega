@@ -22,6 +22,26 @@
   margin: 1rem;
 }
 
+@media (max-width: 1200px) {
+  .direccion {
+    font-size: 45px;
+  }
+
+  .parrafo-ubicacion {
+    font-size: 25px;
+  }
+
+}
+@media (max-width: 992px) {
+  .direccion {  
+    font-size: 35px;}
+
+}
+@media (max-width:768px) {
+  .direccion {  
+    font-size: 27px;}
+
+}
 @media (max-width: 576px) {
   body {
     display: grid;
