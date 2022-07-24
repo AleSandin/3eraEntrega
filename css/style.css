@@ -355,3 +355,7 @@ body {
     grid-area: index-img2;
     width: 90vw;
     margin: 2rem; } }
+
+@media (max-width: 375px) {
+  .header__img {
+    margin-left: 5rem; } }
